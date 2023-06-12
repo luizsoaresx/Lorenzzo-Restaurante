@@ -1,0 +1,527 @@
+/* GERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+#cabecario-pages{
+    background-color: rgb(12, 12, 12);
+}
+
+#cabecario-pages nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#cabecario-pages nav li{
+    padding: 10px 38px 10px 38px;
+    font-size: 16px;
+}
+
+#cabecario-pages a{
+    letter-spacing: 3px;
+    color: #d6ab1c;
+    text-decoration: none;
+    transition: linear .1s;
+}
+
+#cabecario-pages a:hover{
+    color: #fae08c;
+}
+
+#rodape{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+
+#rodape p{
+    padding: 30px 0px;
+    font-size: 12px;
+    text-align: center;
+    color: #b48e10;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#rodape a{
+    text-decoration: none;
+    color: #b48e10;
+}
+
+/* PÁGINA HOME */
+
+#bloco-principal{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../imagens/background-7.jpg);
+    width: 100%;
+    height: 100vh;
+    color: #FFF;
+    background-repeat: no-repeat;
+}
+
+#bloco-principal nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.027));
+}
+
+#bloco-principal nav li{
+    padding: 10px 38px 10px 38px;
+    font-size: 16px;
+}
+
+#bloco-principal a{
+    letter-spacing: 3px;
+    color: #d6ab1c;
+    text-decoration: none;
+    transition: linear .1s;
+}
+
+#bloco-principal a:hover{
+    color: #fae08c;
+}
+
+#bloco-principal h1{
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 21%;
+    margin-bottom: 0px;
+    color: #b48e10;
+}
+
+#bloco-principal p{
+    color: #acacac;
+    margin: 5px 10px;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.bloco-historia{
+    width: 100%;
+    height: 100%;
+    padding: 40px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(12, 12, 12);
+    border-bottom: 1px solid #b48e103a;
+}
+
+.bloco-historia h2{
+    color: #b48e10;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bloco-historia .conteudo-historia{
+    display: flex;
+}
+
+.bloco-historia .conteudo-historia img{
+    width: 380px;
+}
+
+.bloco-historia p{
+    align-self: center;
+    padding: 25px 40px;
+    text-align: justify;
+    color: #acacac;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+.bloco-historia .conteudo-historia #p-historia{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#bloco-horarios{
+    padding: 40px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    border-bottom: 1px solid #b48e103a;
+}
+
+#bloco-horarios h2{
+    color: #b48e10;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+#conteudo-horario{
+    text-align: center;
+    align-self: center;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+#conteudo-horario h3{
+    color: #b48e10;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+#bloco-horarios p{
+    align-self: center;
+    color: #acacac;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/*PÁGINA DE RESERVAS*/
+
+#bloco-pagina-reserva{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+}
+
+#container-form{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+}
+
+#bloco-pagina-reserva #img-form{
+    width: 50%;
+    background-color: #d6ab1c;
+}
+
+#bloco-pagina-reserva #img-form img{
+    height: 80vh;
+    width: 100%;
+}
+
+#form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    padding: 3rem;
+}
+
+#form #titulo-form{
+    color: #b48e10;
+    display: flex;
+    justify-content: center;
+    padding: 4px 8px;
+    letter-spacing: 5px;
+}
+
+.bloco-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+#form label{
+    color: #b48e10;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#form input{
+    width: 100%;
+    height: 28px;
+    padding: 12px;
+    margin-bottom: 4px;
+    border: none;
+    outline: none;
+}
+
+input + span{
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+input:invalid+span:after{
+    position: absolute;
+    content: 'Horário inválido';
+    color: rgb(255, 0, 0);
+}
+
+input:valid+span:after{
+    position: absolute;
+    content: 'Horário válido';
+    color: green;
+}
+
+#form #botao-reserva button{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    height: 28px;
+    background-color: #3d3d3d;
+}
+
+#form #botao-reserva button:hover{
+    background-color: #b48e10d3;
+}
+
+@media screen and (max-width: 1330px){
+    #img-form{
+        display: none;
+    }
+    #container-form{
+        width: 50%;
+    }
+    #form{
+        width: 100%;
+    }
+}
+
+/* PÁGINA GALERIA */
+
+#bloco-pagina-galeria{
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 26, 26);
+}
+
+#bloco-pagina-galeria h2{
+    text-align: center;
+    color: #b48e10;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#container-galeria{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#bloco-pagina-galeria #container-galeria{
+    padding: 25px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#bloco-pagina-galeria #container-galeria img{
+    display: block;
+    width: 100%;
+    transition: all 0.2s linear;
+    border: 5px solid #b48e1094;
+}
+
+#bloco-pagina-galeria #container-galeria img:hover{
+    transform: scale(1.025);
+    border: 5px solid #b48e10;
+}
+
+/* PÁGINA DE FAQ */
+
+#bloco-pagina-faq{
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container-faq{
+    align-self: center;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(12, 12, 12);
+    padding: 140px;
+}
+
+#bloco-pagina-faq #container-faq h2{
+    color: #b48e10;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 45px;
+}
+
+details{
+    padding: 12px;
+    border: 2px solid #b48e10;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+
+summary{
+    color: #b48e10;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+details p{
+    padding-top: 8px;
+    color: #acacac;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+details p #observacao-faq{
+    color: rgba(255, 0, 0, 0.644);
+}
+
+ #container-faq::-webkit-scrollbar-thumb{
+    color: #b48e10;
+}
+
+
+@media screen and (max-width:1333px){
+    #bloco-pagina-faq{
+        height: 100vh;
+    }
+
+    #container-faq{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:1334px){
+    #bloco-pagina-faq{
+        padding-top: 135px;
+        padding-bottom: 210px;
+    }
+}
+
+/* PÁGINA DE CONTATO */
+
+#bloco-pagina-contato{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+}
+
+#container-contato{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+}
+
+#bloco-pagina-contato #info-contato{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    color: #b48e10;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#bloco-pagina-contato #imagem-contato{
+    width: 50%;
+    background-color: #d6ab1c;
+}
+
+#imagem-contato img{
+    width: 100%;
+    height: 80vh;
+}
+
+#info-contato h2{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+#info-contato p{
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+#info-contato .dados{
+    font-weight: 100;
+    color: #acacac;
+}
+
+/* PÁGINA DE CARDÁPIO */
+
+#bloco-pagina-cardapio{
+    padding: 65px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+}
+
+#container-cardapio{
+    margin-top: 5px;
+    align-self: center;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(12, 12, 12);
+    padding: 50px 80px;
+    text-transform: uppercase;
+}
+
+#container-cardapio h2{
+    color: #b48e10;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#container-cardapio h3{
+    color: #b48e10;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+#container-cardapio p{
+    text-align: justify;
+    color: #acacac;
+    letter-spacing: 2px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+#entradas, #massas, #carnes, #sobremesas{
+    margin-bottom: 40px;
+}
